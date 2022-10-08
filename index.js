@@ -14,7 +14,7 @@ app.get('/worstfood', (req, res) => {
     res.send(`My worst food is ${YOUR_WORST_FOOD}`);                                                       
 });
 
-app.get('/worstfoodfrom2', async (req, res) => {       
+app.get('/worstfoodfrom2', (req, res) => {       
     res.send(YOUR_WORST_FOOD);                                                       
 });
 
